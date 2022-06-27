@@ -65,3 +65,70 @@ input {
     background-color: #0430b450;
     cursor: pointer;
 }
+
+
+/*CSS da página de controle*/
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5882fa;
+}
+
+.section-btn {
+    margin: 20px 0;
+}
+
+.botoes-controle {
+    font-size: 1.2em;
+    background-color: #E6F7FF;
+    color: #0431B4;
+    width: 120px;
+    height: 60px;
+    outline: none;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+.botoes-controle:hover {
+    background-color: #5883fa8c;
+}
+
+.botoes-controle:active {
+    background-color: #0431B4;
+    color: white;
+}
+
+footer {
+    margin: auto;
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.titulo-robot {
+    background-color: #5882fa;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 0.7em;
+}
+
+.conteudo p{
+    color: #0431B4;
+    font-size: 0.8em;
+    margin: 20px 5px 10px 5px;
+}
+
+.conteudo p :last-child {
+    font-weight: bolder;
+}
+
