@@ -114,10 +114,11 @@ footer {
     border-radius: 10px;
 }
 .titulo-robot {
+    
     background-color: #5882fa;
     border-radius: 8px 8px 0 0;
     text-align: center;
-    color: white;
+    color: white !important;
     padding: 20px;
     font-size: 0.7em;
 }
@@ -126,8 +127,17 @@ footer {
     color: #0431B4;
     font-size: 0.8em;
     margin: 20px 5px 10px 5px;
+    font-weight: bolder;
 }
 
-.conteudo p :last-child {
-    font-weight: bolder;
+.conteudo p:last-child {
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 700px) {
+    .botoes-controle {
+        width: 240px;
+        height: 120px;
+        font-size: 2em;
+    }
 }
